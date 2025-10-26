@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{
+            background-color: rgb(22, 22, 22);
+            font-family: Comic Sans MS;
+            color: aliceblue;
+        }
+        .body{
+            border: 2px rgb(132, 15, 15) groove;
+            border-radius: 10px;
+            width: fit fit-content;
+            background: none;
+        }
+        nav{
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr;
+            justify-content: center;
+            width: fit-content;
+            column-gap: 50px;
+            background: none;
+            
+        }
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 20px;
+            background: none;
+        }
+        nav ul li{
+            display: flex;
+            justify-content: space-around;
+            margin-right: 13px;
+            align-items: center;
+            margin-top: 7px;
+            background: none;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 13px;
+        }
+        #section{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 10px;
+            background: none;          
+        }
+        nav section, button{
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            margin-left: 30px;
+            align-items: center;
+            font-size: 13px;
+            background: none;
+        }
+        nav a{
+            border: 2px solid rgb(132, 15, 15);
+            border-radius: 10px;
+            height: 25px;
+            color: aliceblue;
+            background-color: rgb(132, 15, 15);
+            text-align: center;
+            text-decoration: none;
+        }
+        .footer{
+            font-size: 35px;
+            text-align: center;
+            background: none;
+        }
+        footer p{
+            font-family: forte;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 30px;
+            row-gap: 20px;
+            column-gap: 20px;
+            align-items: center;
+            background: none;
+        }
+        #div1, #div4, #div5, #div8, #div9, #div12{
+            border: 3px rgb(132, 15, 15) solid;
+            border-radius: 15px;
+            text-align: center;
+        
+        }
+        #pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
+            border: none;
+            border-radius: 15px;
+        }
+        header h1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 40px;
+            font-family: forte;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="body">
+        <nav>
+            <h3 id="name">Noir Café</h3>
+            <div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="/">MENU</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="ourchefs.html">OUR CHEFS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>    
+        </div>
+            <section>BOOK A TABLE: +254 700 112 334
+            <a href="contact.html">BOOK RESERVATION</a><br><br>
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="M320-120v-66.67h126.67v-178q-94.67-14-150.67-79.8-56-65.8-56-155.53v-240h480v240q0 90-56 155.67-56 65.66-150.67 79.66v178H640V-120H320Zm159.9-306.67q64.77 0 113.1-43t57-97H310q8 54 56.57 97t113.33 43ZM306.67-633.33h346.66v-140H306.67v140ZM480-426.67Z"/></svg></section>
+            <hr>
+        </nav>
+        <header>
+            <h1>Experience perfection at its finest <br>from our well-crafted menu below </h1>
+        </header>
+        <main class="main">
+            <div id="div1">
+                <h2>COFFEE BAR</h2>
+                <hr id="line3">
+                <h3>1. SIGNATURE DRINKS <br>(Artisan Cofees)</h3>
+                
+                    <p>+ Expresso <br>
+                    + Macchaito <br>
+                    + Flat White <br>
+                    + Cappuccino <br>
+                    + Mocha</p>
+            
+                <h3>2. SIGNATURE LATTES</h3>
+                
+                    <p>+ Vanilla Rose Latte <br>
+                    + Salted Caramel Cream Latte <br>
+                    + Coconut Honey Cappuccino <br>
+                    + Hazelnut Mocha Bliss</p>
+            
+                <h3>3. COLD BREWS & ICED COFFEES</h3>
+                    <p>+ Iced Spanish Latte
+                    + Vanilla Cold Foam Brew
+                    + Coffee Tonic</p>
+                
+
+            </div>
+            <div id="div2">
+                <img src="pic31.jpg" alt="coffee" width="400" height="500" id="pic1">
+            </div>
+            <div id="div3">
+                <img src="pic32.jpg" alt="brunch" width="300" height="400" id="pic2">
+            </div>
+            <div id="div4">
+                <h2>BREAKFAST</h2>
+                <hr id="line4">
+                
+                    <p>+ Eggs Benedict Variations: Classic, Florentine (spinach), or Smoked Salmon <br><br><br>
+                    + Luxury Pancakes/Waffles: with berries, mascarpone, and honey drizzle <br><br><br>
+                    + Greek yogurt with granola, chia pudding, or smoothie bowls</p>
+            
+            </div>
+            <div id="div5">
+                <h2>BRUNCH</h2>
+                <hr id="line5">
+                
+                    <p>+ Croissant Sandwiches: Ham & cheese, Chicken pesto, or Veggie melt <br> <br><br>
+                    + Avocado Toast Trio: with feta, poached egg, or smoked salmon</p>
+            
+            </div>
+            <div id="div6">
+                <img src="pic29.jpg" alt="brunch" width="300" height="400" id="pic3">
+            </div>
+            <div id="div7">
+                <img src="pic35.jpg" alt="salads" width="300" height="400" id="pic4">
+            </div>
+            <div id="div8">
+                <h2>SALADS</h2>
+                <hr id="line6">
+                
+                    <p>+ Grilled chicken Caesar salad</p>
+            
+            </div>
+            <div id="div9">
+                <h2>PASTA & SOUP</h2>
+                <hr id="line7"><br><br>
+                <p>+  Truffle alfredo <br>+ Mushroom and Truffle soup</p>
+            </div>
+            <div id="div10">
+                <img src="pic40.jpeg" alt="pasta" width="300" height="400" id="pic5">
+            </div>
+            <div id="div11">
+                <img src="pic36.jpg" alt="desserts" width="300" height="400" id="pic6">
+            </div>
+            <div id="div12">
+                <h2>DESSERTS & PASTRIES</h2>
+                <hr id="line8">
+                
+                    <p>+ Chocolate chip cookies <br><br>
+                    + Tiramisu cups <br><br>
+                    + Cheesecake <br><br>
+                    + Pain au chocolat</p>
+            
+            </div>
+            
+
+        </main>
+        <footer class="footer">
+            <p>---COFFEE BAR---BRUNCH---PASTRIES---SALADS---STEAKS---</p>    
+        </footer>   
+</body>
+</html>

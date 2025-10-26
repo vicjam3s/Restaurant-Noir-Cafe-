@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurChefs</title>
+    <style>
+        *{
+           background-color: rgb(22, 22, 22);
+            font-family: Comic Sans MS;
+            color: aliceblue;
+        }
+        .body{
+            border: 2px rgb(132, 15, 15) groove;
+            border-radius: 10px;
+            width: fit fit-content;
+            background: none;
+        }
+        nav{
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr;
+            justify-content: center;
+            width: fit-content;
+            column-gap: 50px;
+            background: none;
+            
+        }
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 20px;
+            background: none;
+        }
+        nav ul li{
+            display: flex;
+            justify-content: space-around;
+            margin-right: 13px;
+            align-items: center;
+            margin-top: 7px;
+            background: none;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 13px;
+        }
+        #section{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 10px;
+            background: none;          
+        }
+        nav section, button{
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            margin-left: 30px;
+            align-items: center;
+            font-size: 13px;
+            background: none;
+        }
+        nav a{
+            border: 2px solid rgb(132, 15, 15);
+            border-radius: 10px;
+            height: 25px;
+            color: aliceblue;
+            background-color: rgb(132, 15, 15);
+            text-align: center;
+            text-decoration: none;
+        }
+        .footer{
+            font-size: 35px;
+            text-align: center;
+            background: none;
+        }
+        footer p{
+            font-family: forte;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: none;
+
+        }
+        main div{
+            border: 3px rgb(132, 15, 15) solid;
+            border-radius: 20px;
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+        
+        main div img{
+            border-radius: 50%;
+        }
+        header h1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 40px;
+            font-family: forte;
+
+
+    </style>
+</head>
+<body>
+    <div class="body">
+        <nav>
+            <h3 id="name">Noir Café</h3>
+            <div>
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="ourchefs.html">OUR CHEFS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>    
+            </ul></div>
+            <section>BOOK A TABLE: +254 700 112 334
+            <a href="contact.html">BOOK RESERVATION</a><br><br>
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="M320-120v-66.67h126.67v-178q-94.67-14-150.67-79.8-56-65.8-56-155.53v-240h480v240q0 90-56 155.67-56 65.66-150.67 79.66v178H640V-120H320Zm159.9-306.67q64.77 0 113.1-43t57-97H310q8 54 56.57 97t113.33 43ZM306.67-633.33h346.66v-140H306.67v140ZM480-426.67Z"/></svg></section>
+            <hr>
+        </nav>
+        <header>
+            <h1>Meet the masterminds behind the <br>magnifique creations at <b><u>Noir Café</u></b></h1>
+        </header>
+        <main class="main">
+            <div>
+                <img src="HEAD OF KITCHEN.jpeg" alt="HEAD OF KITCHEN" width="300" height="400">
+                <h2>HEAD OF KITCHEN</h2>
+                <h3>Taylor Holmes</h3>
+            </div>
+            <div>
+                <img src="HEAD CHEF.jpeg" alt="HEAD CHEF" width="300" height="400">
+                <h2>HEAD CHEF</h2>
+                <h3>Delores Wolf</h3>
+            </div>
+            <div>
+                <img src="DEPUTY HEAD CHEF.jpeg" alt="DEPUTY HEAD CHEF" width="300" height="300">
+                <h2>DEPUTY HEAD CHEF</h2>
+                <h3>Tami Blair</h3>
+            </div>
+            <div>
+                <img src="HEAD OF BAKERY.jpeg" alt="HEAD OF BAKERY" width="300" height="300">
+                <h2>HEAD OF BAKERY</h2>
+                <h3>Patrice Butler</h3>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <p>---COFFEE BAR---BRUNCH---PASTRIES---SALADS---STEAKS---</p>    
+        </footer>    
+</body>
+</html>
